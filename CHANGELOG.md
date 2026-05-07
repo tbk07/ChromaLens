@@ -1,4 +1,4 @@
-# camera-color-picker
+# chromalens
 
 ## 0.7.0
 
