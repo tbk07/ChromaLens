@@ -1,34 +1,51 @@
-# <img src="src/assets/what-color-logo.png" width="30" /> ChromaLens
+# ChromaLens
 
+ChromaLens is a camera-based color recognition web app that helps users identify real-world colors from a live camera feed. It uses the Image Capture API and Canvas API to sample pixel data, convert RGB values to hex colors, and fetch human-readable color names.
 
+## Live Demo
 
-This tool aims to answer "What Color is this?" question.
+Demo: [https://chroma-lens-iota.vercel.app/](https://chroma-lens-iota.vercel.app/)
 
-But why on earth this tool was built in the first place? This is because I need a tool to help a [color-blind](https://en.wikipedia.org/wiki/Color_blindness) person like me to recognize color in this world easily by using Camera.
+## Features
 
-## Live 
+- Live camera capture using the browser Image Capture API
+- Pixel-level color extraction with Canvas `getImageData`
+- RGB-to-hex conversion and color-name lookup
+- Cached color-name results to reduce repeated API calls
+- Reusable Vue components with Storybook stories
+- Clipboard support for copied hex values
 
-📸 Demo: [(https://camera-color-picker.vercel.app/)](https://chroma-lens-iota.vercel.app/)
+## Tech Stack
 
+- Vue 3
+- TypeScript
+- Vite
+- Tailwind CSS
+- Canvas API
+- Image Capture API
+- Storybook
 
 ## Local Installation
 
-Run these commands to start the app on your local machine:
+Install dependencies:
 
-### Install dependencies
-
-```
+```bash
 yarn install
 ```
 
-### Run the development server
+Run the development server:
 
-```
+```bash
 yarn dev
+```
+
+Run Storybook locally:
+
+```bash
+yarn storybook
 ```
 
 ## References
 
 - [Take photos and control camera settings](https://developer.chrome.com/blog/imagecapture)
-- [Extracting a color palette from an image with javascript](https://dev.to/producthackers/creating-a-color-palette-with-javascript-44ip)
 - [CanvasRenderingContext2D: getImageData() method](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData)
