@@ -1,6 +1,6 @@
 # <img src="src/assets/what-color-logo.png" width="30" /> ChromaLens
 
-![Kapture 2023-12-17 at 18 21 07](https://github.com/trihargianto/camera-color-picker/assets/18502234/90d33fc5-3208-46bc-8fcf-0d7222b01692)
+
 
 This tool aims to answer "What Color is this?" question.
 
