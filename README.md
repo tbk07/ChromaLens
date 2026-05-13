@@ -8,9 +8,8 @@ But why on earth this tool was built in the first place? This is because I need 
 
 ## Live 
 
-📸 Demo: [https://apparel-customizer.vercel.app](https://camera-color-picker.vercel.app/)
+📸 Demo: [(https://camera-color-picker.vercel.app/)](https://chroma-lens-iota.vercel.app/)
 
-📓 Storybook: [https://apparel-customizer-storybook.vercel.app](https://camera-color-picker-storybook.vercel.app/)
 
 ## Local Installation
 
